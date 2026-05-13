@@ -169,7 +169,7 @@ At first glance, the `O(N)` complexity for insertions and deletions in `std::vec
 
 <div align="center">
   <img src="../img/std_map_vs_vector_graph.png" alt="std::map vs. std::vector Latency Graph" style="width: 800px; height: auto;">
-  <p><i>Figure 11: Latency distribution comparing `std::map` (yellow) and `std::vector` (green), showing `std::vector`'s improved performance but still exhibiting a "fat tail."</i></p>
+  <p><i>Figure 11: Latency distribution comparing `std::map` (light blue) and `std::vector` (green), showing `std::vector`'s improved performance but still exhibiting a "fat tail."</i></p>
 </div>
 
 ### Optimizing `std::vector` for Order Book Dynamics
